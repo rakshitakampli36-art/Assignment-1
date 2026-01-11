@@ -1,0 +1,7 @@
+flowers=("Rose","Tulip","Lilies","Daisies","Orchids","Lilies","Lilies","Sunflower")
+print(flowers)
+print("Length of the tuple is: ",len(flowers))
+print("Number of times 'lilies' repeated is : ",flowers.count("Lilies"))
+idx=input("enter flower name to now it's index : ")
+print("entered flower is present at index : ",flowers.index(idx))
+print("The sorted tuple is : ",sorted(flowers))
